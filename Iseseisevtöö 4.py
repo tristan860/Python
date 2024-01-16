@@ -36,8 +36,9 @@ def tervitus(n):
 for i in range(külalised):
     tervitus(i+1)
 
-kassa = 0
+
 def pronksikarva_summa(f):
+    kassa = 0   
     fail = open("mündid.txt")
     for mynt in fail:
         if int(mynt) < 10:
