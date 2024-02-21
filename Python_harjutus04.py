@@ -115,7 +115,6 @@ if sugu == "m":
 else:
     print("ei pääse meeskonda")
 
-
 """
 Müük
 Kasutaja sisestab toote hinna. Kui see on hinnaga kuni 10€, saab ta allahindlust 10%. Üle 10€ tooted saavad soodukat 20%.
@@ -129,7 +128,6 @@ else:
     vastus = 0.2
 print(f"hind on {hind-hind*vastus} €")
 
-
 """
 Juubel
 Kasutaja sisestab oma sünnipäeva ja sinu programm ütleb, kas tegemist on juubeliga.
@@ -142,7 +140,6 @@ if v % 5 == 0:
 else:
     vastus = "ei ole"
 print(f"vanus {v}: {vastus} juubel")
-
 
 """
 Matemaatika
@@ -166,7 +163,6 @@ else:
     vastus = "ära pulli mees!"
 
 print(f"{nr1} {tehe} {nr2} {vastus}")
-
 
 """
 Ruut
